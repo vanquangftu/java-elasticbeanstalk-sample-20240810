@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping
     public ResponseEntity<?> greetings() {
 
-        return new ResponseEntity<Object>("<h1 style='color:green;'>Congratulations, your app has been deployed! Welcome to CMC Global<h1>", HttpStatus.OK);
+        return new ResponseEntity<Object>("<h1 style='color:red;'>Congratulations, your app has been deployed! Welcome to CMC Global 2025-02-12<h1>", HttpStatus.OK);
     }
 
 }
